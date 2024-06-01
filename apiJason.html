@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>api</title>
+</head>
+<body>
+    <h1> json</h1>
+    <script>
+        const apiJson  = {
+            name : 'shykat',
+            father : 'nurunnabi',
+            hobby : [
+                "crickeat",
+                "football",
+                "batmainton",
+            ],
+            ages: [10,20,30,],
+            address : {
+                city : 'dhaka',
+                country : 'bangladesh',
+            },
+        }
+        const STinfy = JSON.stringify(apiJson);
+        console.log(STinfy);
+        const STinfy2 = JSON.parse(STinfy);
+        console.log(STinfy2);
+
+    </script>
+</body>
+</html>

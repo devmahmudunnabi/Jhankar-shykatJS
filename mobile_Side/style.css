@@ -1,0 +1,46 @@
+body{
+    background-color: gray;
+}
+.container{
+    width: 1200px !important;
+}
+.mobile_sec{
+    background-color: #fff;
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 10px !important;
+}
+.mobile_image{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.hFive{
+    padding-left: 50px;
+}
+.mobil{
+    display: flex; 
+    align-items: center;
+}
+.secondbox{
+    padding: 0px 0px;
+}
+.btn1{
+    background-color: azure;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.btn2{
+    margin-left: 10px!important;
+    background-color: azure;
+    font-size: 20px;
+}
+.taka{
+    margin: 0px 70px;
+}
+.hover:hover{
+ color: red !important;
+}

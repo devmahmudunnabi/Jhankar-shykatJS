@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 onclick="handleClick">This is shykat . He loves coding </h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, esse?</p>
+    <button id="fastButton">button 1</button>
+    <button id="second">button 2</button>
+    <button id="lastParson">button 3</button>
+
+    <script>
+       
+        document.getElementById("fastButton").addEventListener('click',function(){
+            document.body.style.color = 'blue';
+        });
+       document.getElementById('lastParson').addEventListener('click', function(){
+         document.body.style.backgroundColor = 'red';
+       })
+
+        function handleClick() {
+            document.body.style.backgroundColor = 'tomato';
+        }
+        const secondButton = document.getElementById('second');
+         
+        secondButton.addEventListener('click',handleClick);
+        // secondButton.onclick = handleClick;
+
+       
+      
+    </script>
+</body>
+</html>

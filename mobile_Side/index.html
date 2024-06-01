@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>    
+<section>
+    <div class="mobile">
+        <div class="container">
+            <div class="card-item mobile_sec">
+                <div class="row" >
+                    <div class="col-md-7 center-item ">
+                       <div class="mobil">
+                        <img class="mobile_image" src="./images/mobile.jpg" alt="mobile">
+                        <h5 class="hFive">iphone 15 128gb Black</h5>
+                       </div>
+                    </div>
+                    <div class="col-md-5 d-flex align-items-center secondbox">
+                        <div class="col-md-6">
+                            <div class="input-group d-flex align-items-center ">
+                                <button onclick="handleProductChange('phone',false);" class="btn btn-default btn1"><i class="fas fa-minus"></i></button>
+                                <input id="phone-count" type="text" class="form-control  text-center" value=" 1">
+                                <button onclick="handleProductChange('phone',true);"class="btn btn-default btn2"><i class="fas fa-plus"></i></button>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="d-flex align-items-center justify-content-between taka">
+                                <h5 id="phone-total" style="margin: 0px;">$1219</h5>
+                            <span style="font-size :30px"><i class="fa-solid fa-xmark hover"></i></span> 
+                            </div>
+                        </div>                       
+                    </div>
+                </div>                
+            </div>
+        </div>  
+    </div>
+    <div class="mobile" style="padding-top: 10px;">
+        <div class="container">
+            <div class="card-item mobile_sec">
+                <div class="row" >
+                    <div class="col-md-7 center-item ">
+                       <div class="mobil">
+                        <img class="mobile_image" src="./images/images.jpeg" alt="mobile">
+                        <h5 class="hFive">back cover</h5>
+                       </div>
+                    </div>
+                    <div class="col-md-5 d-flex align-items-center secondbox">
+                        <div class="col-md-6">
+                            <div class="input-group d-flex align-items-center ">
+                                <button onclick="handleProductChange('case',false);" class="btn btn-default btn1"><i class="fas fa-minus"></i></button>
+                                <input id="case-count" type="text" class="form-control  text-center" value=" 1">
+                                <button onclick="handleProductChange('case',true);" class="btn btn-default btn2"><i class="fas fa-plus"></i></button>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="d-flex align-items-center justify-content-between taka">
+                                <h5 id="case-total" style="margin: 0px;">$50</h5>
+                            <span  style="font-size :30px"><i class="fa-solid fa-xmark hover"></i></span> 
+                            </div>
+                        </div>                       
+                    </div>
+                </div>                
+            </div>
+        </div>  
+    </div>
+    <div class="mobile" style="padding-top: 10px;">
+        <div class="container">
+            <div class="card-item mobile_sec">
+                <div class="row">
+                   <div class="col-md-8" style="padding-left: 50px;">
+                        <h5>Subtotal</h5>
+                        <h5>Tax</h5>
+                        <h5>Total</h5>
+                   </div>
+                   <div class="col-md-4" style="padding-left: 120px;">
+                        <h5 id="total-price">$1278</h5>
+                        <h5 id="tex-amount">$0</h5>
+                        <h5 id="grand-total">$1278</h5>
+                   </div>                 
+                </div>
+            </div>
+        </div>  
+    </div>
+    <div class="container">
+        <div class="row" >
+            <div class="col-md-12"style="display: flex; justify-content: end;">
+                <button class=" btn btn-success" style="margin: 10px; font-size: 20px;">Check Out</button>
+            </div>
+        </div>
+    </div>
+    
+
+</section>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./custom.js"></script>
+</body>
+</html>
